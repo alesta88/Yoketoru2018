@@ -14,7 +14,7 @@ public class GameOverManager : MonoBehaviour {
 	void Update () {
         if (Input.GetMouseButtonDown(0))
         {
-            SceneManager.LoadScene("game");
+            SceneManager.LoadScene("title");
         }
     }
 }
